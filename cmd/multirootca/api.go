@@ -7,13 +7,13 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/auth"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/whitelist"
-	metrics "github.com/cloudflare/go-metrics"
+	"github.com/redNixon/cfssl/api"
+	"github.com/redNixon/cfssl/auth"
+	"github.com/redNixon/cfssl/helpers"
+	"github.com/redNixon/cfssl/log"
+	"github.com/redNixon/cfssl/signer"
+	"github.com/redNixon/cfssl/whitelist"
+	metrics "github.com/redNixon/go-metrics"
 )
 
 // A SignatureResponse contains only a certificate, as there is no other

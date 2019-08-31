@@ -6,9 +6,9 @@ package persist
 import (
 	"errors"
 
-	"github.com/cloudflare/redoctober/config"
-	"github.com/cloudflare/redoctober/keycache"
-	"github.com/cloudflare/redoctober/passvault"
+	"github.com/redNixon/redoctober/config"
+	"github.com/redNixon/redoctober/keycache"
+	"github.com/redNixon/redoctober/passvault"
 )
 
 var defaultStore Store = &File{}

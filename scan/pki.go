@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/revoke"
-	"github.com/cloudflare/cfssl/scan/crypto/tls"
+	"github.com/redNixon/cfssl/helpers"
+	"github.com/redNixon/cfssl/revoke"
+	"github.com/redNixon/cfssl/scan/crypto/tls"
 )
 
 // PKI contains scanners for the Public Key Infrastructure.

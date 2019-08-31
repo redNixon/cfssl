@@ -9,12 +9,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/csr"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/initca"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/signer/local"
+	"github.com/redNixon/cfssl/config"
+	"github.com/redNixon/cfssl/csr"
+	"github.com/redNixon/cfssl/helpers"
+	"github.com/redNixon/cfssl/initca"
+	"github.com/redNixon/cfssl/signer"
+	"github.com/redNixon/cfssl/signer/local"
 	"github.com/kisom/goutils/assert"
 )
 

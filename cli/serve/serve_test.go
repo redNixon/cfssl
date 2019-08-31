@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudflare/cfssl/cli"
+	"github.com/redNixon/cfssl/cli"
 )
 
 func TestServe(t *testing.T) {

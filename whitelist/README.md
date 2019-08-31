@@ -75,7 +75,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/cloudflare/cfssl/whitelist"
+	"github.com/redNixon/cfssl/whitelist"
 )
 
 var wl = whitelist.NewBasic()

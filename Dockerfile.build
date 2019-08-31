@@ -2,7 +2,7 @@ FROM golang:1.12.7
 
 ENV USER root
 
-WORKDIR /go/src/github.com/cloudflare/cfssl
+WORKDIR /go/src/github.com/redNixon/cfssl
 COPY . .
 
 # restore all deps and build

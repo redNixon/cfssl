@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudflare/cfssl/auth"
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/log"
-	ocspConfig "github.com/cloudflare/cfssl/ocsp/config"
+	"github.com/redNixon/cfssl/auth"
+	cferr "github.com/redNixon/cfssl/errors"
+	"github.com/redNixon/cfssl/helpers"
+	"github.com/redNixon/cfssl/log"
+	ocspConfig "github.com/redNixon/cfssl/ocsp/config"
 	"github.com/zmap/zlint/lints"
 )
 

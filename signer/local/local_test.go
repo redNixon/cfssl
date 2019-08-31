@@ -25,12 +25,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/csr"
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
+	"github.com/redNixon/cfssl/config"
+	"github.com/redNixon/cfssl/csr"
+	cferr "github.com/redNixon/cfssl/errors"
+	"github.com/redNixon/cfssl/helpers"
+	"github.com/redNixon/cfssl/log"
+	"github.com/redNixon/cfssl/signer"
 	"github.com/google/certificate-transparency-go"
 	"github.com/zmap/zlint/lints"
 )

@@ -14,8 +14,8 @@ import (
 	"crypto/sha256"
 	"errors"
 
-	"github.com/cloudflare/redoctober/padding"
-	"github.com/cloudflare/redoctober/symcrypt"
+	"github.com/redNixon/redoctober/padding"
+	"github.com/redNixon/redoctober/symcrypt"
 )
 
 var Curve = elliptic.P256

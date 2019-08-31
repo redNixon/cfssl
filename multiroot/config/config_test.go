@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cloudflare/cfssl/log"
+	"github.com/redNixon/cfssl/log"
 
 	_ "github.com/mattn/go-sqlite3" // import just to initialize SQLite for testing
 )

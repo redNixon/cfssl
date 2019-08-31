@@ -2,8 +2,8 @@ package client
 
 import (
 	"crypto/tls"
-	"github.com/cloudflare/cfssl/auth"
-	"github.com/cloudflare/cfssl/helpers"
+	"github.com/redNixon/cfssl/auth"
+	"github.com/redNixon/cfssl/helpers"
 	"net"
 	"strings"
 	"testing"

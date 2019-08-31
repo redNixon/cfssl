@@ -10,7 +10,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/cloudflare/redoctober/core"
+	"github.com/redNixon/redoctober/core"
 )
 
 // RemoteServer represents a remote RedOctober server.

@@ -36,15 +36,15 @@ required = [
 
 [[constraint]]
   branch = "master"
-  name = "github.com/cloudflare/backoff"
+  name = "github.com/redNixon/backoff"
 
 [[constraint]]
   branch = "master"
-  name = "github.com/cloudflare/go-metrics"
+  name = "github.com/redNixon/go-metrics"
 
 [[constraint]]
   branch = "master"
-  name = "github.com/cloudflare/redoctober"
+  name = "github.com/redNixon/redoctober"
 
 [[constraint]]
   name = "github.com/go-sql-driver/mysql"

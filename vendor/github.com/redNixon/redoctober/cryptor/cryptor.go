@@ -16,13 +16,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cloudflare/redoctober/config"
-	"github.com/cloudflare/redoctober/keycache"
-	"github.com/cloudflare/redoctober/msp"
-	"github.com/cloudflare/redoctober/padding"
-	"github.com/cloudflare/redoctober/passvault"
-	"github.com/cloudflare/redoctober/persist"
-	"github.com/cloudflare/redoctober/symcrypt"
+	"github.com/redNixon/redoctober/config"
+	"github.com/redNixon/redoctober/keycache"
+	"github.com/redNixon/redoctober/msp"
+	"github.com/redNixon/redoctober/padding"
+	"github.com/redNixon/redoctober/passvault"
+	"github.com/redNixon/redoctober/persist"
+	"github.com/redNixon/redoctober/symcrypt"
 )
 
 const (

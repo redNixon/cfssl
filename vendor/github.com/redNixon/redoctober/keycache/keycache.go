@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudflare/redoctober/ecdh"
-	"github.com/cloudflare/redoctober/passvault"
+	"github.com/redNixon/redoctober/ecdh"
+	"github.com/redNixon/redoctober/passvault"
 )
 
 // DelegateIndex is used to index the map of currently delegated keys.

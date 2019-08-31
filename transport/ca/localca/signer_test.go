@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/csr"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/initca"
-	"github.com/cloudflare/cfssl/selfsign"
+	"github.com/redNixon/cfssl/config"
+	"github.com/redNixon/cfssl/csr"
+	"github.com/redNixon/cfssl/helpers"
+	"github.com/redNixon/cfssl/initca"
+	"github.com/redNixon/cfssl/selfsign"
 	"github.com/kisom/goutils/assert"
 )
 

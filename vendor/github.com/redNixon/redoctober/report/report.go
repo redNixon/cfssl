@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cloudflare/redoctober/config"
+	"github.com/redNixon/redoctober/config"
 	raven "github.com/getsentry/raven-go"
 )
 

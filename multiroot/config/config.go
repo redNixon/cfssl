@@ -15,15 +15,15 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cloudflare/cfssl/certdb/dbconf"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/helpers/derhelpers"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/whitelist"
+	"github.com/redNixon/cfssl/certdb/dbconf"
+	"github.com/redNixon/cfssl/config"
+	"github.com/redNixon/cfssl/helpers"
+	"github.com/redNixon/cfssl/helpers/derhelpers"
+	"github.com/redNixon/cfssl/log"
+	"github.com/redNixon/cfssl/whitelist"
 
-	"github.com/cloudflare/redoctober/client"
-	"github.com/cloudflare/redoctober/core"
+	"github.com/redNixon/redoctober/client"
+	"github.com/redNixon/redoctober/core"
 	"github.com/jmoiron/sqlx"
 )
 

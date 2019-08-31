@@ -4,9 +4,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/cloudflare/redoctober/config"
-	"github.com/cloudflare/redoctober/keycache"
-	"github.com/cloudflare/redoctober/passvault"
+	"github.com/redNixon/redoctober/config"
+	"github.com/redNixon/redoctober/keycache"
+	"github.com/redNixon/redoctober/passvault"
 )
 
 // File implements a file-backed persistence store.

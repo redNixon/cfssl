@@ -4,10 +4,10 @@ import (
 	"flag"
 	"time"
 
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer/universal"
+	"github.com/redNixon/cfssl/config"
+	"github.com/redNixon/cfssl/helpers"
+	"github.com/redNixon/cfssl/log"
+	"github.com/redNixon/cfssl/signer/universal"
 )
 
 // Config is a type to hold flag values used by cfssl commands.

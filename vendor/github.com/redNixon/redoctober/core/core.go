@@ -13,14 +13,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudflare/redoctober/config"
-	"github.com/cloudflare/redoctober/cryptor"
-	"github.com/cloudflare/redoctober/hipchat"
-	"github.com/cloudflare/redoctober/keycache"
-	"github.com/cloudflare/redoctober/order"
-	"github.com/cloudflare/redoctober/passvault"
-	"github.com/cloudflare/redoctober/persist"
-	"github.com/cloudflare/redoctober/report"
+	"github.com/redNixon/redoctober/config"
+	"github.com/redNixon/redoctober/cryptor"
+	"github.com/redNixon/redoctober/hipchat"
+	"github.com/redNixon/redoctober/keycache"
+	"github.com/redNixon/redoctober/order"
+	"github.com/redNixon/redoctober/passvault"
+	"github.com/redNixon/redoctober/persist"
+	"github.com/redNixon/redoctober/report"
 )
 
 var (

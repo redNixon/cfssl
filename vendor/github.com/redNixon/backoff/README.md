@@ -21,7 +21,7 @@ maximum duration and interval.
 ```
 package something
 
-import "github.com/cloudflare/backoff"
+import "github.com/redNixon/backoff"
 
 func retryable() {
         b := backoff.New(0, 0)
@@ -49,7 +49,7 @@ package something
 import (
     "time"
 
-    "github.com/cloudflare/backoff"
+    "github.com/redNixon/backoff"
 )
 
 func retryable() {

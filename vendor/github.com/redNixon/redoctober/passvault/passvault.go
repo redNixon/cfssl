@@ -22,9 +22,9 @@ import (
 	mrand "math/rand"
 	"os"
 
-	"github.com/cloudflare/redoctober/ecdh"
-	"github.com/cloudflare/redoctober/padding"
-	"github.com/cloudflare/redoctober/symcrypt"
+	"github.com/redNixon/redoctober/ecdh"
+	"github.com/redNixon/redoctober/padding"
+	"github.com/redNixon/redoctober/symcrypt"
 	"golang.org/x/crypto/scrypt"
 )
 

@@ -42,7 +42,7 @@
 [[projects]]
   branch = "master"
   digest = "1:643fe12757fc28604199954aa88738b60c4beacbdfefa4a3aa943e8383ffbcc1"
-  name = "github.com/cloudflare/backoff"
+  name = "github.com/redNixon/backoff"
   packages = ["."]
   pruneopts = "UT"
   revision = "647f3cdfc87a18586e279c97afd6526d01b0d063"
@@ -50,7 +50,7 @@
 [[projects]]
   branch = "master"
   digest = "1:63e3efae411752c89c07f5ced84deb25293ad69a6d89cc4540ffa3082690f0a8"
-  name = "github.com/cloudflare/go-metrics"
+  name = "github.com/redNixon/go-metrics"
   packages = ["."]
   pruneopts = "UT"
   revision = "6a9aea36fb410b71add0d0e58438e0cfc44d3076"
@@ -58,7 +58,7 @@
 [[projects]]
   branch = "master"
   digest = "1:a4b006f9a0677d35f40904f83bd8d22c1bab6c37d8a7cc974e42af5a0e83494e"
-  name = "github.com/cloudflare/redoctober"
+  name = "github.com/redNixon/redoctober"
   packages = [
     "client",
     "config",
@@ -343,10 +343,10 @@
     "bitbucket.org/liamstask/goose/cmd/goose",
     "github.com/GeertJohan/fgt",
     "github.com/GeertJohan/go.rice",
-    "github.com/cloudflare/backoff",
-    "github.com/cloudflare/go-metrics",
-    "github.com/cloudflare/redoctober/client",
-    "github.com/cloudflare/redoctober/core",
+    "github.com/redNixon/backoff",
+    "github.com/redNixon/go-metrics",
+    "github.com/redNixon/redoctober/client",
+    "github.com/redNixon/redoctober/core",
     "github.com/go-sql-driver/mysql",
     "github.com/google/certificate-transparency-go",
     "github.com/google/certificate-transparency-go/client",

@@ -8,9 +8,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/cloudflare/cfssl/cli"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/scan"
+	"github.com/redNixon/cfssl/cli"
+	"github.com/redNixon/cfssl/log"
+	"github.com/redNixon/cfssl/scan"
 )
 
 var scanUsageText = `cfssl scan -- scan a host for issues

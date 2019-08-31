@@ -25,9 +25,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/cloudflare/cfssl/csr"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/transport/core"
+	"github.com/redNixon/cfssl/csr"
+	"github.com/redNixon/cfssl/helpers"
+	"github.com/redNixon/cfssl/transport/core"
 )
 
 const (
