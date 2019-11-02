@@ -84,6 +84,7 @@ func gencertMain(args []string, c cli.Config) error {
 				return err
 			}
 		} else {
+            log.Infof("------------------------IN CA POLICY")
 			log.Infof("generating a new CA key and certificate from CSR")
 			cert, csrPEM, key, err = initca.New(&req)
 			if err != nil {

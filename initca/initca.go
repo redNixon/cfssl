@@ -218,6 +218,7 @@ func RenewFromSigner(ca *x509.Certificate, priv crypto.Signer) ([]byte, error) {
 
 // CAPolicy contains the CA issuing policy as default policy.
 var CAPolicy = func() *config.Signing {
+    log.Infof("------------------------IN CA POLICY")
 	return &config.Signing{
 		Default: &config.SigningProfile{
 			Usage:        []string{"cert sign", "crl sign"},
